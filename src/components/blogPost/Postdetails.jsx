@@ -102,8 +102,8 @@ function PostDetails() {
         <div className="rounded-lg shadow-md shadow-blue-600/50 p-4 m-8 bg-zinc-200 w-3/4 h-1/4"> 
           <h1 className="text-lg">Post Details</h1>
           <div>
-            <span className="">{postDetails?.result?.title || ''}:</span>
-            <span className="">{postDetails?.result?.body || ''}</span>
+            <h1 className="text-2xl">{postDetails?.result?.title || ''}</h1>
+            <p className="">{postDetails?.result?.body || ''}</p>
           </div>
         </div> 
         <div>
